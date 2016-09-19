@@ -22,7 +22,7 @@
 		<slf4j.version>1.7.5</slf4j.version>
 
 		<!-- Test -->
-		<junit.version>4.12</junit.version>
+		<junit.version>4.11</junit.version>
 
 	</properties>
 	
@@ -84,7 +84,21 @@
 			<artifactId>lombok</artifactId>
 			<version>1.16.10</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>4.3.2.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>1.4.192</version>
+		</dependency>
+		<dependency>
+			<groupId>com.hynnet</groupId>
+			<artifactId>oracle-driver-ojdbc</artifactId>
+			<version>12.1.0.2</version>
+		</dependency>
 	</dependencies>	
 	<build>
 		<plugins>
